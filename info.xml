@@ -2,7 +2,7 @@
 <extension key="org.wikimedia.systemtools" type="module">
   <file>systemtools</file>
   <name>Home for WMF helpers</name>
-  <description>FIXME</description>
+  <description>Tools to diagnose queries</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>eileenmcnaughton</author>
@@ -20,7 +20,7 @@
   <compatibility>
     <ver>5.30</ver>
   </compatibility>
-  <comments>Not too sure what will go in this other than our modifyQuery helper - maybe failmail helpers</comments>
+  <comments>/comments>
   <civix>
     <namespace>CRM/Systemtools</namespace>
   </civix>
