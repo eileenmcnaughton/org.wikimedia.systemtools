@@ -18,7 +18,7 @@
   <version>1.0</version>
   <develStage>stable</develStage>
   <compatibility>
-    <ver>5.0</ver>
+    <ver>5.30</ver>
   </compatibility>
   <comments>Not too sure what will go in this other than our modifyQuery helper - maybe failmail helpers</comments>
   <civix>
