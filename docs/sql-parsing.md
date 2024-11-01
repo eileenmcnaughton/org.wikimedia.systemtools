@@ -1,44 +1,3 @@
-# org.wikimedia.systemtools
-
-![Screenshot](images/screenshot.png)
-
-This extension provides 2 helpers for keeping on top of queries
-1) Drupal only - it appends a commented string to any query that is run with the id of the user who ran the query
-  (useful if a slow query is impacting the server & you want to find out what triggered it)
-2) It adds an api to parse query logs - see under usage
-
-The extension is licensed under [AGPL-3.0](LICENSE.txt).
-
-## Requirements
-
-* PHP v7.4+
-* CiviCRM 5.30+
-
-## Installation (Web UI)
-
-This extension has not yet been published for installation via the web UI.
-
-## Installation (CLI, Zip)
-
-Sysadmins and developers may download the `.zip` file for this extension and
-install it with the command-line tool [cv](https://github.com/civicrm/cv).
-
-```bash
-cd <extension-dir>
-cv dl org.wikimedia.systemtools@https://github.com/FIXME/org.wikimedia.systemtools/archive/master.zip
-```
-
-## Installation (CLI, Git)
-
-Sysadmins and developers may clone the [Git](https://en.wikipedia.org/wiki/Git) repo for this extension and
-install it with the command-line tool [cv](https://github.com/civicrm/cv).
-
-```bash
-git clone https://github.com/FIXME/org.wikimedia.systemtools.git
-cv en systemtools
-```
-
-## Usage
 On CiviCRM 5.30+ installs it is possible to get a query output file using
 ```
 env CIVICRM_DEBUG_LOG_QUERY=xyz drush mycommand
@@ -71,5 +30,4 @@ Further reading https://wikitech.wikimedia.org/wiki/Fundraising#Queries_%26_timi
 ## Known Issues
 Regex is included to replace any emails but other personal data may be in the file so
 be careful!
-
 
