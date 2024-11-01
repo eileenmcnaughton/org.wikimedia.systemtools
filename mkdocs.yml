@@ -1,6 +1,5 @@
 site_name: CiviCRM System tools
 repo_url: https://lab.civicrm.org/extensions/systemtools
-edit_uri: https://lab.civicrm.org/extensions/systemtools/-/edit/master
 site_description: 'Helpers for investigating performance issues.'
 site_author: 'Eileen'
 theme:
