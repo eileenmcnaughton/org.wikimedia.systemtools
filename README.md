@@ -2,10 +2,7 @@
 
 ![Screenshot](images/screenshot.png)
 
-This extension provides 2 helpers for keeping on top of queries
-1) Drupal only - it appends a commented string to any query that is run with the id of the user who ran the query
-  (useful if a slow query is impacting the server & you want to find out what triggered it)
-2) It adds an api to parse query logs - see under usage
+This extension provides 2 helpers for analysing sql & redis output for performance purposes
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
